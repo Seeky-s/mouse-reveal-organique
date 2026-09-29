@@ -1,0 +1,62 @@
+{
+  "name": "mouse-reveal-organique",
+  "version": "0.1.0",
+  "description": "An organic liquid image reveal container for React.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "PROVENANCE.md"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "vite demo --host 127.0.0.1 --port 3001",
+    "demo:build": "vite build demo",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.7.2",
+    "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "keywords": [
+    "react",
+    "cursor",
+    "reveal",
+    "liquid",
+    "organic",
+    "animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seeky-s/mouse-reveal-organique.git"
+  },
+  "homepage": "https://github.com/Seeky-s/mouse-reveal-organique#readme",
+  "bugs": {
+    "url": "https://github.com/Seeky-s/mouse-reveal-organique/issues"
+  }
+}
