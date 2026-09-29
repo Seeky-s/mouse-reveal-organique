@@ -76,4 +76,4 @@ Before publishing: review ownership/licensing, select your GitHub repository, ad
 
 ## Implementation and license
 
-MIT. See [LICENSE](./LICENSE) and [PROVENANCE.md](./PROVENANCE.md). This is a separately authored implementation, not the Framer component or a port of its shaders. It is not a pixel-identical reproduction of the reference.
+MIT. See [LICENSE](./LICENSE). This is a separately authored implementation, not the Framer component or a port of its shaders. It is not a pixel-identical reproduction of the reference.
