@@ -1,6 +1,6 @@
 {
   "name": "mouse-reveal-organique",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An organic liquid image reveal container for React.",
   "type": "module",
   "license": "MIT",
