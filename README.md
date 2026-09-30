@@ -2,6 +2,8 @@
 
 A liquid image-reveal container for React 18/19, written in TypeScript. Move the pointer to reveal a second image through an evolving organic mask. Each instance owns its simulation; children remain ordinary, interactive React content.
 
+[![Live demo](https://img.shields.io/badge/demo-live-000?style=flat-square)](https://mouse-reveal-organique.vercel.app)
+
 ```sh
 npm install mouse-reveal-organique
 ```
