@@ -57,5 +57,8 @@
   "homepage": "https://mouse-reveal-organique.vercel.app",
   "bugs": {
     "url": "https://github.com/Seeky-s/mouse-reveal-organique/issues"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }

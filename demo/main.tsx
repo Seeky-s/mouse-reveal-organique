@@ -1,5 +1,6 @@
 import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
+import { Analytics } from "@vercel/analytics/react";
 import BoxMouseOrganique from "../src/index.js";
 import "./style.css";
 
@@ -13,6 +14,7 @@ function Playground() {
   const [added, setAdded] = useState(false);
   return <>
     <header><a href="#playground">m/o<span>mouse reveal organique</span></a><span className="badge">REACT · INDEPENDENT ENGINE · v0.1</span></header>
+    <Analytics />
     <main id="playground">
       <div className="intro"><p className="eyebrow">UN MOUVEMENT. UN AUTRE MONDE.</p><h1>Let it <em>flow.</em></h1><p>Un masque vivant, une trace qui s’efface.<br/>Déplacez la souris sur le paysage pour explorer.</p></div>
       <BoxMouseOrganique className="landscape" img_cover="/cover.svg" img_background="/reveal.svg" size_mouse={size} trail_duration={trail} organic={organic} disabled={disabled} image_alt="Paysage abstrait de montagnes à la tombée du jour">
