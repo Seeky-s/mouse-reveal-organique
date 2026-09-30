@@ -1,8 +1,17 @@
 # mouse-reveal-organique
 
-A liquid image-reveal container for React 18/19, written in TypeScript. Move the pointer to reveal a second image through an evolving organic mask. Each instance owns its simulation; children remain ordinary, interactive React content.
+**An organic liquid cursor reveal for React.** Move the pointer to reveal a second image through an evolving organic mask — no animation library or stylesheet required.
 
-[![Live demo](https://img.shields.io/badge/demo-live-000?style=flat-square)](https://mouse-reveal-organique.vercel.app)
+[![Animated preview of mouse-reveal-organique](https://raw.githubusercontent.com/Seeky-s/mouse-reveal-organique/main/assets/mouse-reveal-demo.gif)](https://mouse-reveal-organique.vercel.app)
+
+[![Live demo](https://img.shields.io/badge/Live_demo-Explore_the_effect-111111?style=for-the-badge)](https://mouse-reveal-organique.vercel.app)
+[![npm](https://img.shields.io/npm/v/mouse-reveal-organique?style=for-the-badge&label=npm)](https://www.npmjs.com/package/mouse-reveal-organique)
+
+> **[Open the interactive demo →](https://mouse-reveal-organique.vercel.app)**
+
+Each instance owns its own simulation; children remain ordinary, interactive React content.
+
+## Quick start
 
 ```sh
 npm install mouse-reveal-organique

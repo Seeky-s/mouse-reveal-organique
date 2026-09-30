@@ -8,8 +8,7 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE",
-    "PROVENANCE.md"
+    "LICENSE"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -55,7 +54,7 @@
     "type": "git",
     "url": "git+https://github.com/Seeky-s/mouse-reveal-organique.git"
   },
-  "homepage": "https://github.com/Seeky-s/mouse-reveal-organique#readme",
+  "homepage": "https://mouse-reveal-organique.vercel.app",
   "bugs": {
     "url": "https://github.com/Seeky-s/mouse-reveal-organique/issues"
   }
